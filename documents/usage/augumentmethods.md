@@ -1,0 +1,14 @@
+
+
+| #   | Phương Pháp              | Mô Tả                                                                                          | Lợi Ích                                                                                     |
+|-----|--------------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| 1   | Xoay (Rotation)          | Xoay hình ảnh một góc ngẫu nhiên trong khoảng từ -90 đến 90 độ.                                | Tạo ra các biến thể khác nhau của hình ảnh, giúp mô hình học được các hướng khác nhau.     |
+| 2   | Lật (Flipping)           | Lật hình ảnh theo chiều ngang hoặc chiều dọc.                                                  | Tăng số lượng mẫu, giúp mô hình học được các đối tượng từ nhiều góc nhìn khác nhau.         |
+| 3   | Dịch Chuyển (Translation)| Dịch chuyển hình ảnh sang trái, phải, lên, xuống một khoảng nhất định.                        | Giúp mô hình học được vị trí của đối tượng trong các phần khác nhau của hình ảnh.          |
+| 4   | Phóng To/Thu Nhỏ (Zoom)  | Phóng to hoặc thu nhỏ hình ảnh trong một tỷ lệ nhất định.                                      | Tạo ra các biến thể với các kích thước khác nhau của đối tượng.                            |
+| 5   | Cắt Ngẫu Nhiên (Random Cropping) | Cắt một phần ngẫu nhiên của hình ảnh.                                                        | Giúp mô hình học được các phần khác nhau của đối tượng, cải thiện khả năng phát hiện chi tiết. |
+| 6   | Thay Đổi Độ Sáng (Brightness Adjustment) | Điều chỉnh độ sáng của hình ảnh theo một hệ số ngẫu nhiên.                                  | Giúp mô hình học được các điều kiện ánh sáng khác nhau.                                    |
+| 7   | Thay Đổi Độ Tương Phản (Contrast Adjustment) | Điều chỉnh độ tương phản của hình ảnh.                                                       | Giúp mô hình học được các mức độ tương phản khác nhau.                                     |
+| 8   | Nhiễu (Noise Injection)  | Thêm nhiễu ngẫu nhiên vào hình ảnh.                                                            | Giúp mô hình trở nên mạnh mẽ hơn trước các hình ảnh có nhiễu.                              |
+| 9   | Biến Dạng Hình Học (Geometric Transformations) | Áp dụng các biến dạng hình học như bóp méo, uốn cong hình ảnh.                               | Tạo ra các biến thể hình học khác nhau, giúp mô hình học được nhiều dạng hình học của đối tượng. |
+| 10  | Cắt Dải (Cutout)         | Cắt bỏ một phần nhỏ ngẫu nhiên của hình ảnh, thường là một dải vuông hoặc hình chữ nhật.       | Giúp mô hình trở nên mạnh mẽ hơn trước việc mất một phần thông tin.                        |
