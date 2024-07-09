@@ -1,5 +1,3 @@
-Dưới đây là các yếu tố cần thiết của đề tài và các lựa chọn cụ thể mà bạn có thể áp dụng cho từng yếu tố trong nghiên cứu của mình:
-
 | #  | Hạng Mục                         | Lựa Chọn Sẽ Làm                                                                                                           |
 |----|----------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | 1  | Tên đề tài                       | Nghiên cứu và phân loại bệnh trên cây xoài sử dụng trí tuệ nhân tạo                                                       |
@@ -32,5 +30,3 @@ Dưới đây là các yếu tố cần thiết của đề tài và các lựa 
 | 28 | Hình thức trình bày              | Tuân thủ quy định về hình thức trình bày, định dạng văn bản: font chữ, cỡ chữ, khoảng cách dòng, lề trang, đánh số trang.|
 | 29 | Cách ghi trích dẫn               | Tuân thủ quy định về cách ghi trích dẫn và liệt kê tài liệu tham khảo theo định dạng IEEE hoặc APA.                     |
 | 30 | Cách trình bày bảng và hình      | Tuân thủ quy định về cách trình bày bảng biểu, hình ảnh, sơ đồ: tiêu đề, chú thích, đánh số thứ tự.                    |
-
-Danh sách này bao gồm các lựa chọn cụ thể cho các yếu tố cần thiết của đề tài, giúp bạn có cái nhìn tổng quan và chi tiết về các bước cần thực hiện để hoàn thiện luận văn của mình.
