@@ -1,1 +1,4 @@
-TODO
+tensorflow
+split-folders
+tensorflow
+matplotlib

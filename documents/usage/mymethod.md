@@ -100,3 +100,29 @@ graph TD;
 ```
 
 Sơ đồ này mô tả các bước triển khai demo cho việc nhận diện bệnh trên xoài, từ kết nối DroidCam, chụp ảnh, cắt vùng có dấu hiệu bệnh, đưa vào mô hình nhận diện và hiển thị kết quả trên Streamlit. Các bước được liên kết một cách tuần tự và logic để dễ dàng theo dõi và triển khai. Các button trên Streamlit cho phép gán nhãn lại cho bệnh và lưu vào folder tương ứng, hỗ trợ việc cải thiện dữ liệu và mô hình nhận diện.
+
+```mermaid
+graph TB
+    subgraph Dataset
+        A(Tập dữ liệu thu thập\nMaggoFruitDDS\bgremoved)
+        B(Tập dữ liệu tự chụp)
+        A & B --> C[Tiền xử lý]
+    end
+
+    C --> D(Tập dữ liệu gốc)
+    D --> E(Chia tập dữ liệu)
+
+    subgraph Original Dataset
+        E --> F(Train)
+        E --> G(Valid)
+        E --> H(Test)
+    end
+
+    subgraph Augment Dataset
+        F --> I[Train augment]
+        G --> J[Valid augment]
+    end
+    
+    F -- Các phép biến đổi --> I
+    G --> J
+```
