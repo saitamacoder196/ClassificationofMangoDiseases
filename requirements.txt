@@ -2,3 +2,11 @@ tensorflow
 split-folders
 tensorflow
 matplotlib
+albumentations
+torch
+torchvision
+torchaudio
+opencv-python-headless
+seaborn
+scikit-learn
+pandas
