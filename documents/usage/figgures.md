@@ -1,4 +1,4 @@
-Để theo dõi và quan sát quá trình huấn luyện mô hình, bạn cần thu thập và hiển thị các số liệu, biểu đồ, và bảng biểu sau:
+Để theo dõi và quan sát quá trình huấn luyện mô hình, chúng ta cần thu thập và hiển thị các số liệu, biểu đồ, và bảng biểu sau:
 
 ### 1. **Số liệu (Metrics)**
 - **Accuracy**: Độ chính xác của mô hình trên tập huấn luyện và tập kiểm tra.
